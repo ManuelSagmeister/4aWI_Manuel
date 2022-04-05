@@ -1,0 +1,46 @@
+div{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.container1{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 480px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.container2{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container3{
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.container4{
+    background-color: yellow;
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container5{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 50px;
+}
