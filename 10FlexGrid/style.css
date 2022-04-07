@@ -11,5 +11,5 @@
 }
 
 .item1{
-    grid-column-start: span;
+    grid-column-start: span 2;
 }
