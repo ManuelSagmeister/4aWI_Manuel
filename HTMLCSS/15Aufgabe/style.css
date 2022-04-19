@@ -1,0 +1,117 @@
+body {
+    width: 875px;
+    background-color: #d6dcde;
+}
+
+.container1 {
+    height: 27px;
+    background-color: #9e0b0f;
+    color: white;
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode,
+    Lucida Grande, sans-serif;
+    font-feature-settings: "liga", "kern";
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.containerleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #bb131a;
+    height: 77px;
+}
+
+.bLand {
+    color: white;
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode,
+    Lucida Grande, sans-serif;
+    font-feature-settings: "liga", "kern";
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.orfImg {
+    height: 39px;
+    width: 101px;
+}
+
+.container3 {
+    background-color: #d32824;
+    height: 11px;
+}
+
+.container4 {
+    background-color: #e94e38;
+    height: 3px;
+}
+
+.container5 {
+    background-color: #790000;
+    height: 29px;
+    color: white;
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode,
+    Lucida Grande, sans-serif;
+    font-feature-settings: "liga", "kern";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bell {
+    height: 17px;
+    width: 15px;
+}
+
+.corona{
+    width: 875px;
+}
+
+.container7{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.coronamessage{
+    position: absolute;
+    top: -60px;
+    background-color: white;
+    padding:20px;
+    width: 700px;
+}
+
+.header{
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode,
+    Lucida Grande, sans-serif;
+    font-feature-settings: "liga", "kern";
+    font-size: 10px;
+    color:grey;
+    text-transform: uppercase;
+}
+.subheader{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode,
+    Lucida Grande, sans-serif;
+    font-feature-settings: "liga", "kern";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
