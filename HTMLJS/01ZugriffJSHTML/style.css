@@ -1,0 +1,8 @@
+body{
+    width: 350px;
+}
+
+.operatoren{
+    display: flex;
+    justify-content: space-evenly;
+}
