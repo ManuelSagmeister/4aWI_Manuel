@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    background-color: red;
+    margin: 5px;
+}
+
+.second{
+    width: 100px;
+}
