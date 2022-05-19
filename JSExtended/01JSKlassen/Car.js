@@ -1,8 +1,8 @@
-class Car{
-    horsepower = 70;
-    constructor(color, brand) {
+export default class Car{
+    constructor(color, brand, horsepower = 100) {
         this.color = color;
         this.brand = brand;
+        this.horsepower = horsepower;
     }
 
     printSpecification(){
@@ -10,7 +10,3 @@ class Car{
     }
 }
 
-let c1 = new Car("red", "Audi");
-let c2 = new Car("blue", "BMW");
-c1.printSpecification();
-c2.printSpecification();
